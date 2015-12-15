@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE message [
+<!ENTITY % message-element "<!ELEMENT message (text)>">
+<!ENTITY % message-attr SYSTEM 
+"https://raw.githubusercontent.com/hoguer/xxe_play/master/message-attr.txt">
+%message-element;
+%message-attr;
+<!ELEMENT text (#PCDATA)>
+]>
+<message font="Times New Roman">
+<text>Hello, World!</text>
+</message>
