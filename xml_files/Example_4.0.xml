@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE message [
+<!ELEMENT message (text)>
+<!ELEMENT text (#PCDATA)>
+<!ENTITY hw "Hello, World!">
+<!ENTITY hw2 "&hw;&hw;&hw;&hw;&hw;&hw;&hw;&hw;&hw;&hw;">
+<!ENTITY hw3 "&hw2;&hw2;&hw2;&hw2;&hw2;&hw2;&hw2;&hw2;&hw2;&hw2;">
+<!ENTITY hw4 "&hw3;&hw3;&hw3;&hw3;&hw3;&hw3;&hw3;&hw3;&hw3;&hw3;">
+<!ENTITY hw5 "&hw4;&hw4;&hw4;&hw4;&hw4;&hw4;&hw4;&hw4;&hw4;&hw4;">
+<!ENTITY hw6 "&hw5;&hw5;&hw5;&hw5;&hw5;&hw5;&hw5;&hw5;&hw5;&hw5;">
+<!ENTITY hw7 "&hw6;&hw6;&hw6;&hw6;&hw6;&hw6;&hw6;&hw6;&hw6;&hw6;">
+<!ENTITY hw8 "&hw7;&hw7;&hw7;&hw7;&hw7;&hw7;&hw7;&hw7;&hw7;&hw7;">
+<!ENTITY hw9 "&hw8;&hw8;&hw8;&hw8;&hw8;&hw8;&hw8;&hw8;&hw8;&hw8;">
+]>
+<message>
+<text>&hw9;</text>
+</message>

@@ -10,3 +10,5 @@
 #	2. Place vulnerable.php in the server directory.
 #	3. Post one of the example XML files to vulnerable.php
 #	   (for example, using curl: curl -d @Example_1.0.xml http://localhost/vulnerable.php)
+#
+# The Example_4.0.xml won't work with PHP (PHP has safeguards against entity expansion), so a smaller expansion is given in Example_4.1.xml to give the user an idea of how the expansion works.

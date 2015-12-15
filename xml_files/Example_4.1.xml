@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE message [
+<!ELEMENT message (text)>
+<!ELEMENT text (#PCDATA)>
+<!ENTITY hw "Hello, World!">
+<!ENTITY hw2 "&hw;&hw;&hw;">
+<!ENTITY hw3 "&hw2;&hw2;">
+<!ENTITY hw4 "&hw3;&hw3;">
+]>
+<message>
+<text>&hw4;</text>
+</message>
