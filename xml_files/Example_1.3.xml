@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE message [
+<!ELEMENT message (text)>
+<!ATTLIST message font CDATA "Arial">
+<!ELEMENT text (#PCDATA)>
+<!ENTITY hw SYSTEM   
+"https://raw.githubusercontent.com/hoguer/xxe_play/master/helloworld.txt">
+]>
+<message font="Times New Roman">
+<text>&hw;</text>
+</message>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE message [
+<!ELEMENT message (text)>
+<!ATTLIST message font CDATA "Arial">
+<!ELEMENT text (#PCDATA)>
+<!ENTITY hw "Hello, World!">
+]>
+<message font="Times New Roman">
+<text>&hw;</text>
+</message>
