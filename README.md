@@ -9,7 +9,7 @@
     
     * For example, to start apache on linux: /etc/init.d/apache2 start
     
-    * For example, to start on Mac OS: php -S localhost:9000
+    * For example, to start on Mac OS: php -S localhost:9000 (note: Mac OS no longer has /etc/fstab, so Example_3.1.xml won't work on a Mac)
     
 1. Place vulnerable.php in the server directory.
 1. Post one of the example XML files to vulnerable.php
