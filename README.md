@@ -6,7 +6,9 @@
 #
 # To use: 
 #
-#	1. Start a server (for example, to start apache on linux: /etc/init.d/apache2 start)
+#	1. Start a server 
+#     (for example, to start apache on linux: /etc/init.d/apache2 start)
+#     (for example, to start on Mac OS: php -S localhost:9000)
 #	2. Place vulnerable.php in the server directory.
 #	3. Post one of the example XML files to vulnerable.php
 #	   (for example, using curl: curl -d @Example_1.0.xml http://localhost/vulnerable.php)
